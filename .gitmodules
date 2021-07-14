@@ -1,0 +1,3 @@
+[submodule "docs/0/lib/elasticlunr/lunr-languages"]
+	path = docs/0/lib/elasticlunr/lunr-languages
+	url = https://github.com/ytyaru/lunr-languages
