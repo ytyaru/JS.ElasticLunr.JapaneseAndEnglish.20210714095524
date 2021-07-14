@@ -31,6 +31,11 @@ window.addEventListener('load', (event) => {
     body: "本文です。和文と英文がmixしています。"
     },
     ];
+
+    // GitHub Pagesにuploadしたら以下のようにbaseUrlを指定しないとNot Foundになってしまう。
+    require.config({
+        baseUrl: "https://ytyaru.github.io/JS.ElasticLunr.JapaneseAndEnglish.20210714095524/0"
+    });
     require(['lib/elasticlunr/elasticlunr.0.9.6.min.js', 
              'lib/elasticlunr/lunr-languages/tinyseg.js', 
              'lib/elasticlunr/lunr-languages/min/lunr.stemmer.support.min.js', 
